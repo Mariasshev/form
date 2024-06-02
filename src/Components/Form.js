@@ -32,7 +32,9 @@ export function AuthorizationForm() {
 
   return (
     <div className="col-12 col-md-6 p-3 justify-content-center card-form">
+
       <Form onSubmit={handleSubmit}>
+        
         <Form.Group className="mb-2">
           <Form.Label htmlFor="userId">User id</Form.Label>
           <Form.Control
